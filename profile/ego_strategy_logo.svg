@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" fill="#f0f8ff" />
+  
+  <!-- Water ripples -->
+  <path d="M50,220 Q125,200 200,220 Q275,240 350,220" stroke="#a0d8ef" stroke-width="3" fill="none" />
+  <path d="M70,240 Q140,220 200,240 Q260,260 330,240" stroke="#a0d8ef" stroke-width="2" fill="none" />
+  
+  <!-- Lotus leaves -->
+  <path d="M120,220 C140,180 160,160 180,170 C200,180 190,210 180,220" fill="#66cc99" />
+  <path d="M180,220 C200,180 220,160 240,170 C260,180 250,210 240,220" fill="#339966" />
+  <path d="M240,220 C260,180 280,160 300,170 C320,180 310,210 300,220" fill="#66cc99" />
+  
+  <!-- Pointed tips of lotus leaves -->
+  <path d="M180,170 L185,140" stroke="#339966" stroke-width="3" fill="none" />
+  <path d="M240,170 L245,130" stroke="#339966" stroke-width="3" fill="none" />
+  <path d="M300,170 L305,150" stroke="#339966" stroke-width="3" fill="none" />
+  
+  <!-- Dragonfly on the middle leaf tip -->
+  <g transform="translate(245,130) rotate(-10)">
+    <!-- Dragonfly body -->
+    <ellipse cx="0" cy="0" rx="12" ry="4" fill="#333333" />
+    
+    <!-- Dragonfly head -->
+    <circle cx="-10" cy="0" r="5" fill="#333333" />
+    
+    <!-- Dragonfly eyes -->
+    <circle cx="-12" cy="-2" r="1.5" fill="#cc0000" />
+    <circle cx="-12" cy="2" r="1.5" fill="#cc0000" />
+    
+    <!-- Dragonfly wings -->
+    <path d="M-5,-2 C0,-15 15,-15 20,-5" stroke="#aaddff" stroke-width="1" fill="rgba(200,230,255,0.7)" />
+    <path d="M-5,2 C0,15 15,15 20,5" stroke="#aaddff" stroke-width="1" fill="rgba(200,230,255,0.7)" />
+    <path d="M5,-2 C10,-15 25,-15 30,-5" stroke="#aaddff" stroke-width="1" fill="rgba(200,230,255,0.7)" />
+    <path d="M5,2 C10,15 25,15 30,5" stroke="#aaddff" stroke-width="1" fill="rgba(200,230,255,0.7)" />
+    
+    <!-- Dragonfly legs -->
+    <path d="M-5,0 L-8,5" stroke="#333333" stroke-width="0.8" />
+    <path d="M0,0 L-3,5" stroke="#333333" stroke-width="0.8" />
+    <path d="M5,0 L2,5" stroke="#333333" stroke-width="0.8" />
+  </g>
+  
+  <!-- Text "EgoStrategy" -->
+  <text x="200" y="300" font-family="Arial, sans-serif" font-size="28" font-weight="bold" text-anchor="middle" fill="#1a5276">EgoStrategy</text>
+  
+  <!-- Upward arrow symbolizing market trends -->
+  <path d="M200,280 L200,250 L190,260 M200,250 L210,260" stroke="#1a5276" stroke-width="3" fill="none" />
+</svg>
