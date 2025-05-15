@@ -1,12 +1,12 @@
-# CogniTrade
+# EgoStrategy
 
 <div align="center">
-  <img src="cognitrade_logo.svg" alt="CogniTrade Logo" width="300"/>
+  <img src="ego_strategy_logo.svg" alt="EgoStrategy Logo" width="300"/>
 </div>
 
 ## 关于我们
 
-CogniTrade是一个专注于将大模型AI技术与量化交易相结合的开源平台。我们的使命是开发先进的数据分析工具和自动化交易系统，帮助交易者在股票、期货和加密货币市场中获利。
+EgoStrategy是一个专注于将大模型AI技术与量化交易相结合的开源平台。我们的使命是开发先进的数据分析工具和自动化交易系统，帮助交易者在股票、期货和加密货币市场中获利。
 
 ## 核心功能
 
@@ -18,7 +18,7 @@ CogniTrade是一个专注于将大模型AI技术与量化交易相结合的开�
 
 ## 项目结构
 
-CogniTrade包含以下核心子项目:
+EgoStrategy包含以下核心子项目:
 
 - **DataHub**: 数据采集、清洗和存储系统
 - **StrategyLab**: 策略开发和回测环境
@@ -48,5 +48,5 @@ CogniTrade包含以下核心子项目:
 ## 联系我们
 
 - GitHub Issues: 提交问题和功能请求
-- 社区论坛: [forum.cognitrade.ai](https://forum.cognitrade.ai)
-- 邮箱: contact@cognitrade.ai
+- 社区论坛: [forum.egostrategy.ai](https://forum.egostrategy.ai)
+- 邮箱: contact@egostrategy.ai
